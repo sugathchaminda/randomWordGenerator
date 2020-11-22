@@ -18,7 +18,7 @@ yarn start
 1. Print numbers from 1 to 100 to the console, but for each number also print a random word using the function `getRandomWordSync`. E.g.
 * Answer
 
-printNumbers() function in the src/index.js   
+* printNumbers() function in the src/index.js   
 
 
 2. Modify your code to be a "Fizz Buzz" program. That is, print the numbers as in the previous step, but
@@ -26,7 +26,7 @@ for multiples of three, print "Fizz" (instead of the random word), for multiples
 for numbers which are both multiples of three and five, print "FizzBuzz".
 * Answer
 
-fizzBuzz() function in the src/index.js  
+* fizzBuzz() function in the src/index.js  
 
 
 
@@ -34,8 +34,8 @@ fizzBuzz() function in the src/index.js
 returns a Promise, which resolves to a random word string.
 * Answer
 
-I - asyncRandomWordPrint() function in the src/index.js  
-II - asyncFizzBuzz() function in the src/index.js  
+* I - asyncRandomWordPrint() function in the src/index.js  
+* II - asyncFizzBuzz() function in the src/index.js  
 
 
 4. Add error handling to both the synchronous and asynchronous solutions (calling `getRandomWord({ withErrors: true })` will intermitently throw an error instead of returning a random word). When an error is caught, the programm should print "It shouldn't break anything!" instead of the random word, "Fizz", "Buzz" or "FizzBuzz"
@@ -59,5 +59,5 @@ The numbers should be printed in ascending order.
 Imagine getRandomWord's implementation is slow and takes 500ms to complete (call getRandomWord({ slow: true }) to emulate this). Can you make your solution run in less than 1000ms with the slow option turned on?
 * Answer
 
-asyncRandomWordPrintBonus() function in the src/index.js 
-asyncRandomWordPrintBonus(true) will call the `{ withErrors: true }`
+* asyncRandomWordPrintBonus() function in the src/index.js 
+* asyncRandomWordPrintBonus(true) will call the `{ withErrors: true }`
